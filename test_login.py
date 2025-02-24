@@ -32,5 +32,5 @@ def test_login_invalid(driver):
     actual_error_message = driver.find_element(By.CSS_SELECTOR,"[data-test='error']").text
     assert expected_error_message == actual_error_message, f"Error Message Not Found or Mismatch!!"
 
-    print("TAssertion passed, Test Login InValid executed.")
+    print("Assertion passed, Test Login InValid executed.")
 
